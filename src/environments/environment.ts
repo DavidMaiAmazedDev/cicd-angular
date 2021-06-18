@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   baseUrl: 'http://localhost:8085/api',
+  serviceUrl: 'http://localhost:8080/api/v1',
   SOCKET_ENDPOINT: 'http://localhost:8000'
 };
 
