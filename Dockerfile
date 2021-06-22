@@ -18,7 +18,7 @@ RUN mkdir -p /app
 
 WORKDIR /app
 COPY . .
-RUN npm install -g npm@7.18.1
+RUN npm install
 RUN npm run build --prod
 
 # Stage 2
